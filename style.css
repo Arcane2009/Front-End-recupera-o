@@ -2,54 +2,52 @@
     margin: 0px;
     padding: 0px;
 }
+:root {
+    --vermelho-principal:#df1515;
+    --branco-secundario:azure;
+    --branco-principal:white;
+    --azul-principal:aqua;
+    --vermelho-secundario:#991111;
+    }
 
 body{
     background-color: black;
 }
-
 header{
     color: #df1515;
     display:grid;
-    grid-template-columns: 31% 74%;
+    grid-template-columns: 25% 75%;
     background-color: rgba(112, 133, 133, 0.637);
     text-shadow: 0px 0px 20px black;
     border-radius: 20px;
 }
-
 .cult{
     color: azure;
 }
-
 .lamb{
     margin-right: 1000px;
     border-radius: 50px;
 }
-
 strong{
     color: white;
 }
-
 nav a{
     text-decoration: none;
     color: aqua;
     text-shadow: 0px 0px 40px aqua;
 }
-
-section{
+.s1{
     display:grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 32% 68%;
 }
-
 img{
     border-color: #991111;
     border: solid;
 }
-
 footer{
     margin-left: 650px;
 }
-
-aside{
+.s2{
     display:grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 34% 66%;
 }
